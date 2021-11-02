@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier achat</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="panier.js"></script>
+</head>
+<body>
+    <div class="container bg-secondary text-light">
+        <h1 class="text-center">Mon panier</h1>
+        <table class="table table-striped table-primary">
+            <tr>
+                <td colspan="3">Billet Match:</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qtym">Quantité</label>
+                    <input type="text" name="qtym" id="qtym">
+                </td>
+                <td>
+                    <label for="pricem">Prix</label>
+                    <input type="text" name="pricem" id="pricem" value="25" disabled>
+                </td>
+                <td>
+                    <label for="totalm">Total</label>
+                    <input type="text" name="totalm" id="totalm" class="total" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Billet Train:</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qtyt">Quantité</label>
+                    <input type="number" name="qtyt" id="qtyt">
+                </td>
+                <td>
+                    <label for="pricet">Prix</label>
+                    <input type="text" name="pricet" id="pricet" value="50" disabled>
+                </td>
+                <td>
+                    <label for="totalt">Total</label>
+                    <input type="text" name="totalt" id="totalt" class="total" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Billet Musee:</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qtymu">Quantité</label>
+                    <input type="number" name="qtymu" id="qtymu">
+                </td>
+                <td>
+                    <label for="pricemu">Prix</label>
+                    <input type="text" name="pricemu" id="pricemu" value="15" disabled>
+                </td>
+                <td>
+                    <label for="totalmu">Total</label>
+                    <input type="text" name="totalmu" id="totalmu" class="total" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Billet Avion:</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qtya">Quantité</label>
+                    <input type="number" name="qtya" id="qtya">
+                </td>
+                <td>
+                    <label for="pricea">Prix</label>
+                    <input type="text" name="pricea" id="pricea" value="180" disabled>
+                </td>
+                <td>
+                    <label for="totala">Total</label>
+                    <input type="text" name="totala" id="totala" class="total" value="" disabled>
+                </td>
+            </tr>
+        </table>
+        <form action=""></form>
+        <label for="Toto">Net a payer:</label>
+        <input type="number" name="Toto" id="Toto" disabled>
+    </form>
+    </div>
+    
+</body>
+</html>
